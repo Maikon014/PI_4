@@ -1,0 +1,62 @@
+					
+	UC3 -  REALIZAR COMPRA				
+					
+					
+	Objetivos:				
+	Requisitos	RF1			
+	Atores	Usuário e Empresa			
+	Prioridade:	Alta			
+	Pré - condições:	Usuário precisa está logado.			
+	Frequência de Uso:	Alta			
+	Pós - condições	O usuário iria criar uma lista de compras;			
+					
+					
+					
+	"Campos:
+"				
+					
+					
+					
+	O sistema possui um formulário de criação de projeto que contém os campos:				
+	- PRODUTO;				
+	- QUANTIDADE				
+	- OPÇÃO +				
+	- OPÇÃO -				
+	- OPÇÃO ADD				
+	- OPÇÃO VOLTAR				
+	- OPÇÃO FINALIZAR				
+	"Fluxo Principal:
+"				
+					
+					
+					
+	1. O sistema apresenta a tela de compra com todos os campo vísiveis(Produto e Quantidade ) e habilitados;				
+	2.  O usuario clica no campo produto;				
+	3. o sistema carrega todos produtos salvo no seu banco de dados;				
+	4. O usuário escolhe um produto da lista apresentada e seleciona;				
+	5. O sistema exibe as informações sobre o produto (Descrição e preço);				
+	6. O Usuário define a quantidade do produto; [A1] [A2]				
+	7. O Usuário adiciona o produto com sua respectiva quantidade a lista de compras; [E1]				
+	8. O Usuário encerra sua compra selecionando a opção: Finalizar; [A3] [A4]				
+	9. O Sistema salva as informações e abre a tela de pagamento.				
+					
+	"Fluxo Alternativo:
+"				
+					
+					
+	[A1] O usuário acrescenta um produto.				
+	1. O usuário clica no botão +;				
+	2. O sistema adiciona mais um item deste produto e seu respectivo valor a  lista de compras;				
+	3. O sistema volta ao passo 6 do Fluxo Principal com a nova quantidade salva.				
+					
+					
+					
+					
+	"Fluxo Exceção:
+"				
+					
+					
+	[E1]	MATRICULA INCORRETA			
+		1. O usuário aciona a opção gravar.			
+		2. O sistema indentifica uma matrícula inválida.			
+		3. O sistema rejeita o cadastro.			
