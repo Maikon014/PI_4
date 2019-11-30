@@ -1,0 +1,69 @@
+                                             <------------Desenvolvador Web-------------->
+                                                    <----Programas_Utilizados---->
+
+<---Visual Studio code--->
+Sistema Operacional: windows, Linux, Mac.
+Arquitetura: 64 bit, 32 bit.
+versão:1.40.1
+
+Descrição- O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft. 
+Ele inclui suporte para depuração, controle Git incorporado, realce de sintaxe, 
+complementação inteligente de código, snippets e refatoração de código.
+
+<---Link_Documentação---> https://code.visualstudio.com/docs
+<---Link_Download---> https://code.visualstudio.com/download
+
+
+<---Adobe Photoshop--->
+Sistema Operacional: windows, Linux, Mac.
+Versão:20.0
+
+Descrição- Adobe Photoshop é um software caracterizado como editor de imagens bidimensionais do tipo raster desenvolvido pela Adobe Systems,
+assim como o programa de facto para edição profissional de imagens digitais e trabalhos de pré-impressão.
+
+<---Link_Documentação---> https://helpx.adobe.com/br/photoshop/user-guide.html
+<---Link_Download---> https://www.adobe.com/br/products/photoshop/free-trial-download.html
+
+<---Xampp--->
+Sistema Operacional: windows, Linux, Mac.
+Arquitetura: 64 bit, 32 bit.
+versão:7.3.11
+
+Descrição- XAMPP é um servidor independente de plataforma, software livre, que consiste principalmente na base de dados MySQL, 
+o qual foi substituído pelo MariaDB, o servidor web Apache e os interpretadores para linguagens de script: PHP e Perl. 
+O nome provem da abreviação de X, Apache, MySQLDB, PHP, Perl.
+
+<---Link_Documentação---> https://www.apachefriends.org/docs/hosting-xampp-on-aws.html
+<---Link_Download---> https://www.apachefriends.org/pt_br/index.html
+
+<---MySQL Workbench--->
+Sistema Operacional: windows, Linux, Mac.
+Arquitetura: 64 bit, 32 bit.
+versão:8.0.18
+
+Descrição- O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.
+É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation.
+
+<---Link_Documentação---> https://dev.mysql.com/downloads/
+<---Link_Download--->https://dev.mysql.com/downloads/workbench/
+
+
+<-----------------//------------------------------------------//---------------------------------------------//-----------------------------------//------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
