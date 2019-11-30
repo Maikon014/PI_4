@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <title>Mercadinho ilha</title>
+</head>
+<body background="imagens/background.jpg" id='fora'>
+        
+    <p></p>
+    <b>Produtos do nosso mercadinho
+        <p></p>
+    <div id="login">
+            
+            <div id="agua"  >
+                <img width="80" height="95" src="imagens/agua.png">
+            </div>
+            <div id="epc"></div>
+
+            <div id="refri">
+                <img width="80" height="95" src="imagens/refri.png" align="center">
+            </div>
+            <div id="epc"></div>
+            <div id="skol">
+                <div><img width="80" height="95" src="imagens/skol.png" align="center"></div>
+            </div>
+            <form action="" id="botoes">
+                <input id='btn' type="button" id="validar" value="Carrinho"  onmouseout="setAgua2()" onmouseover="setAgua()" onclick="comprarProduto(' Agua Mineral Crystal 500ML',0.75)" >
+                &emsp;<input id='btn' type="button" id="validar" value="Carrinho"  onmouseout="setRefri()" onmouseover="setRefri2()" onclick="comprarProduto(' Refrigerante 2L',3.75)">
+                &emsp;<input id='btn' type="button" id="validar" value="Carrinho" onmouseout="setSkol()" onmouseover="setSkol2()" onclick="comprarProduto(' Skol Beats 300ML',3.75)">
+                &emsp;</form>&emsp;
+            
+            <p></p>
+            <b>Adicione ao seu carrinho<p></p>
+            <input type="text" value=" PRODUTO..." id="prdt" readonly>
+            R$:
+            <input type="number" value="0.00" id="val"  readonly><P>
+                <div>&emsp;</div>
+            Quantidade:<input type="number" value="0" id="quant" min="1" max="100">
+
+            <input type="button" id="validar" value="Comprar" onclick="confirmarCompra()">
+            <div>&emsp;</div>
+            <div>&emsp;</div>
+            <div id="carrinho">
+                <img width="40" height="40" src="imagens/carrinho2.png">Total R$: <label id="valor">0.00</label>
+               
+            </div>
+
+            <div id='voltar'>
+                    <input type="button" id='btn' value="VOLTAR"  onclick="window.location.assign('home.html')">
+            </div>
+    </div>
+</body>
+<script src="script/script.js"></script>
+</html>

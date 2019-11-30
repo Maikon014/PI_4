@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+    #titulo {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font: italic 25px Arial bold;
+        }
+        #itens{
+            margin: auto;
+            background:  rgba(255, 255, 255, 0.753);
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+            text-align: center;
+        }
+        footer {
+            color: white;
+            text-align: center;
+            font: italic 25px;
+            
+        }
+        #lblbotoes{
+            font: normal 20pt Arial;
+            color: rgb(45, 22, 255);
+        }
+        #lblbotoes2{
+            font: normal 12pt Arial;
+            color: rgb(45, 22, 255);
+        }
+        #lblbotoes:hover {
+            color: rgba(255, 0, 0, 0.815);
+
+        }
+        #lblbotoes2:hover {
+            color: rgba(255, 0, 0, 0.815);
+
+        }
+        </style>
+    <title>Home Mercadinho</title>
+</head>
+<body background="imagens/background.jpg">            
+        <header id='titulo'>
+                <h1>Mercadinho da ilha</h1>
+            </header>
+            <section id='itens'>
+                <label id="lblbotoes" onclick="window.location.assign('loja.html')" onmousemove="mEnter('lblbotoes')" >
+                    Loja do Mercadinho
+                </label><br><br><br>
+                <label id="lblbotoes2" onmouseover="mEnter('lblbotoes2')"  onclick="window.location.assign('https://www.sla.com')">
+                    Trabalhe conosco
+            </section>
+
+        <footer>
+            <p>&copy;igor albert</p>
+        </footer>
+
+</body>
+</html>
