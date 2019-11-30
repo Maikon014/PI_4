@@ -1,0 +1,28 @@
+			
+		CASO DE USO - ALOCAÇÃO DE EQUIPE	
+			
+		Objetivo:	potencializar as habilidades de cada  objeto e organizar-los  
+		Requisitos:	RNF
+		Atores:	Colaborador
+		Prioridade:	Alta
+		Pré-condições:	
+		Frequência de uso:	Média
+		Pós- condições:	a alocação depende da hieraquia de login 
+			
+		CAMPOS:	
+		O sistema possui um formulário de login que contém os campos:	
+		-Nome	
+		-Senha	
+			
+		-Opção Entrar	
+		-Opção Cancelar	
+		FLUXO PRINCIPAL	
+		1. O Sistema apresenta o formulário de login com todos os campos visiveis e habilitados;	
+		2. O ator preenche o formulário apresentado;	
+		3.O ator seleciona a opção login;	
+		4. O sistema valida os dados preenchidos	
+		5. O sistema realiza o login, dando ao ator as permissões referentes ao seu nivel de acesso.	
+		REGRAS DE NEGÓCIO	
+		O sistema só deverá permitir o login de usuarios previamente cadastrados no sistema	
+		VALIDAÇÕES	
+		-Nome (campo editavel) minimo 6 e maximo 30.	
