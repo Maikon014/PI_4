@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+<selenese>
+	<command>abrir</command>
+	<target><![CDATA[http://mercadinhodailha.epizy.com/Mercadinho/home.html]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[id = lblbotoes]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[id = btn]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>tipo</command>
+	<target><![CDATA[id = quant]]></target>
+	<value><![CDATA[1]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[id = quant]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[id = validar]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[id = validar]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[id = validar]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[xpath = (// input [@ id = 'btn']) [4]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[id = lblbotoes2]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[id = lblbotoes2]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>Duplo click</command>
+	<target><![CDATA[id = lblbotoes2]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[id = lblbotoes]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[xpath = (// input [@ id = 'btn']) [3]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[id = quant]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>tipo</command>
+	<target><![CDATA[id = quant]]></target>
+	<value><![CDATA[1]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[id = quant]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[id = validar]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[xpath = (// input [@ id = 'btn']) [4]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clique</command>
+	<target><![CDATA[xpath = // * / text () [espaço de normalização (.) = ''] / parent :: *]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+</TestCase>
