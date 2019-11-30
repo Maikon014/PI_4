@@ -1,0 +1,59 @@
+					
+					
+					
+					
+					
+	UC1 -  CRIAR PROJETO				
+					
+					
+	Objetivos:				
+	Requisitos	RF2			
+	Atores	Usuário			
+	Prioridade:	Alta			
+	Pré - condições:	O sistema habilita a criação do projeto para usuários logados.			
+	Frequência de Uso:	Alta			
+	Pós - condições	Habilitar o projeto e permitir os processos de: Alocação de Equipe e Associação de Comentários.			
+					
+					
+					
+	"Campos:
+"				
+					
+					
+					
+	O sistema possui um formulário de criação de projeto que contém os campos:				
+	- ID:				
+	- Nome:				
+	- Descrição:				
+	- Estimativa de duração:				
+	- Categoria (Escolha: Melhoria de Processo; Social)				
+					
+					
+	"Fluxo Principal:
+"				
+					
+					
+					
+	1. O sistema apresenta o formulário com todos os campos vísiveis(Nome;Descrição;Estimativa de duração e Categoria( Escolha: Melhoria de Processo;Social) e habilitados;				
+	2.  O usuario digite o campo: Nome; Descrição e Estimativa de duração.				
+	3. O usario escolhe a categoria.				
+	3.1 Caso escolha MELHORIA DE PROCESSO. [A1]				
+	3.2 Caso escolha SOCIAL. [A2]				
+	4. O usuario aciona a opção gravar. 				
+	5. O sistema grava o projeto e atribui um novo valor para o campo ID.				
+					
+					
+	"Fluxo Alternativo:
+"				
+					
+					
+					
+	[A1]	MELHORIA DE PROCESSO			
+		1. O usuário escolhe a opção melhoria de processo no campo Categoria.			
+		2. O sistema habilita os campos: Departamento; Resultados esperados.			
+		3. O Usuário preenche a opção Departamento.			
+		4. O usuário preenche a opção resultado esperado.			
+	[A2]	SOCIAL			
+		1. O usuário escolhe a opção social.			
+		2. O sistema habilita o campo: Público beneficiário.			
+		3. O usuário preenche o campo público beneficiário.			
